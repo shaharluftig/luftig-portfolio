@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.navItem {
+    list-style-type: none;
+    color: #a7b2d0;
+    font-size: 18px;
+    padding: 18px;
+
+}
+
+.navItem:hover {
+    color: #64ffda;
+}
+
+.navItems {
+    display: flex;
+    float: right;
+    margin-right: 4%;
+
+    /* justify-content: space-between; */
+
+
+
+}

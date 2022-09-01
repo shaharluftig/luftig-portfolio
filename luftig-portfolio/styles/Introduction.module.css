@@ -1,0 +1,27 @@
+.introduction {
+  color: #64ffda;
+  font-size: 18px;
+  margin: 0;
+  margin-top: 30%;
+
+}
+
+.fullName {
+  color: white;
+  margin: 0;
+  font-size: 3.9rem;
+
+}
+
+.subIntro {
+  color: #a7b2d0;
+  font-size: 3.9rem;
+  margin: 0;
+
+}
+
+.subDescription {
+  margin-top: 3%;
+  font-size: 20px;
+  color: #a7b2d0;
+}
