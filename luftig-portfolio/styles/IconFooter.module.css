@@ -1,0 +1,13 @@
+.linksContainer {
+  margin-left: 2%;
+  margin-bottom: 5%;
+  width: 2%;
+  height: 10%;
+  bottom: 0;
+  position: fixed;
+}
+
+.linkIcon {
+  margin-top: 50%;
+  cursor: pointer;
+}
