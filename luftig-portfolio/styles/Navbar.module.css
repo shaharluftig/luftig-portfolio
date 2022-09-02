@@ -3,9 +3,6 @@
     position: fixed;
     top: 0;
     background: rgba(20, 30, 48, 0.3);
-
-
-
 }
 
 .navItem {
@@ -25,4 +22,12 @@
     display: flex;
     float: right;
     margin-right: 4%;
+}
+
+@media (max-width:1200px) {
+    .navItem {
+        font-size: 15px;
+        padding: 15px;
+
+    }
 }

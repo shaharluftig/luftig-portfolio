@@ -11,3 +11,17 @@
   margin-top: 50%;
   cursor: pointer;
 }
+
+
+@media (max-width:1200px) {
+  .linksContainer {
+    margin-bottom: 5%;
+    height: 15%;
+  }
+
+  .linkIcon {
+    margin-top: 50%;
+    cursor: pointer;
+  }
+
+}
