@@ -2,12 +2,17 @@
     width: 100%;
     position: fixed;
     top: 0;
+    background: rgba(20, 30, 48, 0.3);
+
+
+
 }
 
 .navItem {
     list-style-type: none;
     color: #a7b2d0;
     font-size: 18px;
+    cursor: pointer;
     padding: 18px;
 
 }
@@ -20,9 +25,4 @@
     display: flex;
     float: right;
     margin-right: 4%;
-
-    /* justify-content: space-between; */
-
-
-
 }
