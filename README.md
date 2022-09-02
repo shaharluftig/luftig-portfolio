@@ -10,5 +10,3 @@ License
 ----
 
 MIT
-
-# luftig-portfolio
