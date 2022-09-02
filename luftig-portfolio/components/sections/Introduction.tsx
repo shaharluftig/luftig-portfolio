@@ -9,9 +9,7 @@ export default function Introduction() {
             <h1 className={styles.fullName}>Shahar Luftig.</h1>
             <h1 className={styles.subIntro}>I build great software</h1>
             <p className={styles.subDescription}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti quisquam sequi necessitatibus ad
-                , reprehenderit ut incidunt laborum cupiditate? Iure,voluptatum. Commodi, perspiciatis omnis! Sunt atque
-                non fugiat perspiciatis sed!</p>
+                I`m Experienced Data Engineer with design and development experience on end to end, large - scale ETL pipelines using a variety of big data technologies and programming languages.</p>
         </div>
     )
 
