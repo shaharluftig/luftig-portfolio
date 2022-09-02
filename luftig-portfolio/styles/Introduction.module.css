@@ -23,3 +23,20 @@
 .subDescription {
   margin-top: 3%;
 }
+
+@media (max-width:1200px) {
+
+  .introduction {
+    font-size: 15px;
+    margin-top: 43%;
+  }
+
+  .fullName {
+    font-size: 3rem;
+  }
+
+  .subIntro {
+    font-size: 3rem;
+
+  }
+}

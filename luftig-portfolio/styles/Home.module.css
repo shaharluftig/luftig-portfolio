@@ -1,4 +1,11 @@
 .content {
     margin-left: 24%;
-    width: 53%;  
+    width: 53%;
+}
+
+@media (max-width:1200px) {
+    .content {
+        margin-left: 15%;
+        width: 70%;
+    }
 }

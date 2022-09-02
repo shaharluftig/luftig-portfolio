@@ -16,7 +16,7 @@ const customStyles = {
     }
 }
 
-export default function IconFooter() {
+export default function IconLinks() {
 
     const handleIconClink = (url: string) => {
         window.open(url)
