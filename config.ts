@@ -1,3 +1,4 @@
+
 const config = {
     links: {
         linkdin: "https://www.linkedin.com/in/shaharlu/",

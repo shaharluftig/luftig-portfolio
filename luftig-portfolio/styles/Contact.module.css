@@ -4,7 +4,12 @@
 
 
 .getInTouch {
+    font-size: 50px;
     color: white;
+    text-align: center;
+}
+
+.contactText {
     text-align: center;
 }
 

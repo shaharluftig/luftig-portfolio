@@ -8,7 +8,7 @@ export default function Contact() {
     return (
         <div className={styles.container} id="Contact">
             <h1 className={styles.getInTouch}>Get in touch</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis earum aspernatur impedit perspiciatis quo nostrum reiciendis hic recusandae mollitia ducimus.</p>
+            <p className={styles.contactText}>Currently, Im not looking for a job, but my inbox is always open</p>
             <button onClick={() => handleEmailButton()} className={styles.emailButton}>
                 Say hi
             </button>

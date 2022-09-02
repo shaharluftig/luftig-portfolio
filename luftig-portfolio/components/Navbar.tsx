@@ -26,8 +26,8 @@ export default function Navbar() {
 
 
     return (
-        show &&
         <nav className={styles.container} id="navbar">
+            {show &&
             <div className="nav-content">
                 <ul className={styles.navItems}>
                     <li className={styles.navItem}>
@@ -52,7 +52,7 @@ export default function Navbar() {
                     </li>
 
                 </ul>
-            </div>
+            </div>}
         </nav>
     );
 
