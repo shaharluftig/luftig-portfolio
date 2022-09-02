@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import IconFooter from '../components/IconFooter';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import About from '../components/sections/About';
 import Contact from '../components/sections/Contact';
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <About />
         <Experience />
         <Contact />
+        <Footer />
       </div>
       <IconFooter />
     </>
