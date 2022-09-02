@@ -1,5 +1,5 @@
 import styles from '../../styles/Contact.module.css';
-import config from '../../../config'
+import config from '../../config'
 
 export default function Contact() {
     const handleEmailButton = () => {
