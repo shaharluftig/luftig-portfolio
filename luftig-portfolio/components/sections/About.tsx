@@ -20,7 +20,7 @@ export default function About() {
         <ul className={styles.skillsList}>
           {technologies.map(technology => {
             return (
-              <li className={styles.skillItem}>
+              <li key={technology} className={styles.skillItem}>
                 {technology}
               </li>
             )
