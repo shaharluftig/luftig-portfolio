@@ -10,7 +10,7 @@ export default function Contact() {
             <h1 className={styles.getInTouch}>Get in touch</h1>
             <p className={styles.contactText}>Currently, Im not looking for a job, but my inbox is always open</p>
             <button onClick={() => handleEmailButton()} className={styles.emailButton}>
-                Say hi
+                Say Hello
             </button>
         </div>
 

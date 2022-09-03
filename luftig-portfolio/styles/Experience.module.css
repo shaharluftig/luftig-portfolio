@@ -1,3 +1,40 @@
 .container {
     margin-top: 70%;
 }
+
+.experienceContainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.jobsList {
+    padding: 0;
+}
+
+.activeJob {
+    border-bottom: #64ffda 1px solid;
+}
+
+.jobItem,
+.activeJob {
+    list-style-type: none;
+    padding: 6px;
+    cursor: pointer;
+    color: #a7b2d0;
+
+}
+
+.jobItem:hover {
+    color: #64ffda;
+}
+
+.jobDescriptionList {
+    width: 70%;
+}
+
+.jobDescriptionItem {
+    padding: 5px;
+    color: #a7b2d0;
+
+}

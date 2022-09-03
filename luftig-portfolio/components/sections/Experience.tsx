@@ -1,23 +1,45 @@
+import { useState } from 'react';
 import styles from '../../styles/Experience.module.css';
 
-
+interface jobs {
+    [key: string]: string[],
+}[]
+const experienceHistory: jobs = {
+    "Matmon Course": ["IDF Data Enginner course"],
+    "Data Enginner": ["Design and develop end to end large - scale ETL pipelines using a variety of big data technologies and programming languages.", "Leading a variety of projects", "Trained 10 new team members"],
+    "Data Engineer Team Lead": ["Managing a team of 10 members", "Professional guidance of the team members", "Agile project management with Scrum"],
+    "Data Developer Team Lead": ["Managing a team of 12 members", "Professional guidance of the team members", "Agile project management with Scrum"]
+}
 export default function Experience() {
+    const [currentJob, setCurrentJob] = useState(Object.keys(experienceHistory)[0])
+
+    const handleJobClick = (job: string) => {
+        setCurrentJob(job)
+    }
+
     return (
         <div>
             <div className={styles.container} id="Experience">
-                <h2 >Experience</h2>
-                <p className={styles.about}>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam nulla quia iure quasi. 
-                    Aut ipsam quam perferendis suscipit tempora cumque, fugiat neque molestias pariatur odit deserunt!
-                     Quasi voluptatum vero reiciendis earum repellat veritatis consequuntur alias ducimus esse repudianda
-                     e sequi officia temporibus doloremque amet optio nisi, explicabo debitis a quisquam? Porro saepe aperiam
-                      voluptas et dolorum architecto voluptates reprehenderit ut eum nostrum numquam vitae dicta voluptate autem 
-                      tempore, dolores excepturi modi optio eligendi nesciunt! Facere laboriosam ipsam earum blanditiis non, cum 
-                      optio iste quasi explicabo ratione dolores deserunt mollitia impedit expedita alias asperiores sed, perferendis
-                       atque velit ullam, adipisci libero eligendi.
-                </p>
+                <h2 >Where I`ve Worked</h2>
+                <div className={styles.experienceContainer}>
+                    <ul className={styles.jobsList}>
+                        {Object.keys(experienceHistory).map(job => {
+                            if (job === currentJob) {
+                                return <li className={styles.activeJob} key={job} onClick={() => handleJobClick(job)}>{job}</li>
+                            }
+                            return <li className={styles.jobItem} key={job} onClick={() => handleJobClick(job)}>{job}</li>
+                        })}
+                    </ul>
+                    <ul className={styles.jobDescriptionList}>
+                        {experienceHistory[currentJob].map(description => {
+                            return (
+                                <li className={styles.jobDescriptionItem}>{description}</li>
+                            )
+                        })}
+                    </ul>
+                </div>
             </div>
 
-        </div>
+        </div >
     )
 }
