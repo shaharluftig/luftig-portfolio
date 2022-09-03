@@ -1,17 +1,26 @@
 .container {
     margin-top: 70%;
+    display: flex;
+
 }
 
 .aboutContainer {
-    display: flex;
-    width: 80%;
-
-}
-
-.aboutText {
     width: 70%;
 }
 
 .image {
     border-radius: 8px;
+    margin-left: 40%;
+}
+
+@media (max-width:1200px) {
+    
+    .container {
+        display: inline-block;
+
+    }
+    .aboutContainer {
+        width: 100%;
+    }
+    
 }
