@@ -3,7 +3,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { grey, teal } from '@mui/material/colors';
 import config from '../config';
-import styles from '../styles/IconFooter.module.css';
+import styles from '../styles/IconLinks.module.css';
 
 const customStyles = {
     icon: {
