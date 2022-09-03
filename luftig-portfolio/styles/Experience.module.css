@@ -12,7 +12,12 @@
     padding: 0;
 }
 
-.jobItem {
+.activeJob {
+    border-bottom: #64ffda 1px solid;
+}
+
+.jobItem,
+.activeJob {
     list-style-type: none;
     padding: 6px;
     cursor: pointer;
@@ -31,5 +36,5 @@
 .jobDescriptionItem {
     padding: 5px;
     color: #a7b2d0;
-    
+
 }

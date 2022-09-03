@@ -24,6 +24,9 @@ export default function Experience() {
                 <div className={styles.experienceContainer}>
                     <ul className={styles.jobsList}>
                         {Object.keys(experienceHistory).map(job => {
+                            if (job === currentJob) {
+                                return <li className={styles.activeJob} key={job} onClick={() => handleJobClick(job)}>{job}</li>
+                            }
                             return <li className={styles.jobItem} key={job} onClick={() => handleJobClick(job)}>{job}</li>
                         })}
                     </ul>
