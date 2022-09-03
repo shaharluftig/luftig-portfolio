@@ -38,3 +38,11 @@
     color: #a7b2d0;
 
 }
+
+@media (max-width:1200px) {
+    .jobDescriptionList {
+        width: 100%;
+    }
+
+
+}
