@@ -4,6 +4,7 @@ import styles from '../../styles/Experience.module.css';
 interface jobs {
     [key: string]: string[],
 }[]
+
 const experienceHistory: jobs = {
     "Matmon Course": ["IDF Data Enginner course"],
     "Data Enginner": ["Design and develop end to end large - scale ETL pipelines using a variety of big data technologies and programming languages.", "Leading a variety of projects", "Trained 10 new team members"],
@@ -31,9 +32,9 @@ export default function Experience() {
                         })}
                     </ul>
                     <ul className={styles.jobDescriptionList}>
-                        {experienceHistory[currentJob].map(description => {
+                        {experienceHistory[currentJob].map((description, index) => {
                             return (
-                                <li className={styles.jobDescriptionItem}>{description}</li>
+                                <li key={index} className={styles.jobDescriptionItem}>{description}</li>
                             )
                         })}
                     </ul>
