@@ -40,13 +40,17 @@ span {
 
 }
 
+span:hover {
+  color: #64ffda;
+}
+
 body::-webkit-scrollbar {
   background-color: #fff;
   width: 16px;
 }
 
 body::-webkit-scrollbar-track {
-  background-color:rgb(20, 30, 48);
+  background-color: rgb(20, 30, 48);
 }
 
 body::-webkit-scrollbar-thumb {
