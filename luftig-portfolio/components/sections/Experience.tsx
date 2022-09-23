@@ -8,8 +8,8 @@ interface jobs {
 const experienceHistory: jobs = {
     "Matmon Course": ["IDF Data Enginner course"],
     "Data Enginner": ["Design and develop end to end large - scale ETL pipelines using a variety of big data technologies and programming languages.", "Leading a variety of projects", "Trained 10 new team members"],
-    "Data Engineer Team Lead": ["Managing a team of 10 members", "Professional guidance of the team members", "Agile project management with Scrum"],
-    "Data Developer Team Lead": ["Managing a team of 12 members", "Professional guidance of the team members", "Agile project management with Scrum"]
+    "Data Engineer Team Lead": ["Managing a team of 10 members", "Professional guidance of the team members", "Agile project management with Scrum","Engineering and development of 18 ETL piplines"],
+    "Data Developer Team Lead": ["Managing a team of 12 members", "Professional guidance of the team members", "Agile project management with Scrum","Management and development of several key systems used by thousands of users"]
 }
 export default function Experience() {
     const [currentJob, setCurrentJob] = useState(Object.keys(experienceHistory)[0])
